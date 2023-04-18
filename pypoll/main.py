@@ -49,7 +49,7 @@ with open(election_data) as csv_file:
     with open("analysis.txt", "w") as analysis:
 
         # Outputs for Analysis
-        analysis.write("              Election Resulsts                \n")
+        analysis.write("              Election Results                \n")
         analysis.write("-----------------------------------------------\n")
         analysis.write(f"Total Number of Votes: {total_votes}\n")
         analysis.write("-----------------------------------------------\n")
